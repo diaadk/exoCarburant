@@ -38,3 +38,17 @@ Il n'y a pas de problème d'ouverture, de séparateur, d'accents mal affichés e
 | Validité   | Filtre : formats hétérogènes dans une colonne | Les valeurs de la colonne sont enregistrées au même format numérique.constaté.                                                    | Faible                             |
 | Unicité    | MFC _Valeurs en double_ sur l'identifiant     | Aucun identifiant en double détecté parmi les données du département 62.                                                          | Faible                             |
 | Fraîcheur  | Date la plus récente vs date du jour          | La date de mise à jour la plus récente des prix du gazole est le 18/09/2026 à 09:30                                               | Faible                             |
+
+## 4. Proposer des usages
+
+### Usage 1 : Trouver les stations les moins chères
+
+- **Question métier :** Quelles sont les differences de prix du carburant dans les differentes villes du Pas-de-Calais?
+- **Colonnes utilisées :** Ville, Prix.
+- **Défaut qualité pouvant fausser la réponse :** il manque la mise a jour sur le prix pour certain carburant.
+
+### Usage 1 : Services dans les stations
+
+- **Question métier :** Quels sont le differents services proposés par les stations du Pas-de-Calais
+- **Colonnes utilisées :** villes, services proposé
+- **Défaut qualité pouvant fausser la réponse :** Les services sont regroupper dans une cellule, difficile de les comparer.
